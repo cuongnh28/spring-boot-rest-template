@@ -16,7 +16,7 @@ import java.util.List;
 
 @Service
 public class TaiXeService {
-    public static final String REST_SERVICE_URI = "http://52.77.228.147:8080/taiXe/";
+    public static final String REST_SERVICE_URI = "http://localhost:8080/taiXe/";
     RestTemplate restTemplate = new RestTemplate();
 
     //Get

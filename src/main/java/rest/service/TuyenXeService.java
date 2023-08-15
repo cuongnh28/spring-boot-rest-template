@@ -16,7 +16,7 @@ import java.util.List;
 @Service
 public class TuyenXeService {
     RestTemplate restTemplate = new RestTemplate();
-    private String REST_SERVICE_URI = "http://52.77.228.147:8080/tuyenXe/";
+    private String REST_SERVICE_URI = "http://localhost:8080/tuyenXe/";
 
     //Get
     public TuyenXe getTuyenXeById(Long id){

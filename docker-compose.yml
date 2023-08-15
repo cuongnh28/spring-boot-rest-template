@@ -2,7 +2,7 @@ version: '3'
 services:
   frontend:
     build: .
-    image: frontend
+    image: cuongnh28/frontend
     container_name: cms
     ports:
       - "8081:8081"

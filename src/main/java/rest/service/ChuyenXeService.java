@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class ChuyenXeService {
-    public static final String REST_SERVICE_URI = "http://52.77.228.147:8080/chuyenXe/";
+    public static final String REST_SERVICE_URI = "http://localhost:8080/chuyenXe/";
     RestTemplate restTemplate = new RestTemplate();
 
     //Get
